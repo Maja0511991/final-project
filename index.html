@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+     <meta charset="UTF-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NYT Explorer</title>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"> </script>
+    <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Kalam' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="/css/final.css">
+
+  </head>
+ 
+  <body>
+    
+
+    <div class="page">
+      <div class="head">
+         <div class="heading">
+          <h1>New York Times Explorer</h1>
+          <p></p>
+        </div>
+        <div class="date">
+          <p>Month:</p>
+          <input type="number" id="month" value="1" min="1" max="12" required>
+          <p>Year:</p>
+          <input type="number" id="year" value="2018" min="1853" max="2018" required>
+          <button onclick="find()">Find</button>
+        </div>
+      </div>
+      <div id="root">
+      </div>
+    </div>
+    </div>
+    <script type="text/babel" src="/js/final.js"></script>
+
+     
+    <div class="footer">
+     
+   <a href="http://developer.nytimes.com." target="_blank"><img src="http://static01.nytimes.com/packages/images/developer/logos/poweredby_nytimes_200c.png"></a>
+ 
+  </div> 
+
+  </body>
+</html>
+
+

@@ -1,0 +1,224 @@
+
+
+      .page {
+        width: 100%;
+        margin: 0 auto;
+        
+      }
+      .head { 
+        font-family: 'Kalam';
+        font-size: 23px;
+        background-color:red;
+        background-size: 1400px ;
+        border-radius: 15px;
+
+        
+      }
+      
+      .date p {
+        display: inline-block
+      }
+      .articleDetails {
+        display: flex;
+        margin-top: 30px;
+        background-image: url("http://i.ebayimg.com/images/i/142227617731-0-1/s-l1000.jpg");
+       
+
+      }
+      .article {
+        display: flex;
+        float: left;
+        width: 100%;
+        display: -webkit-flex; 
+        -webkit-flex-wrap: wrap; 
+        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: auto auto auto auto ;
+        grid-template-rows: auto auto auto auto;
+        grid-gap: 5px;
+        padding: 4px;
+      
+        border-radius: 15px; 
+
+      }
+      .details{
+        float: left;
+        width: 30%;
+        display: inline-block;
+        border-radius: 30px;
+        overflow:scroll;
+        height:300px;
+        position: -webkit-sticky; 
+        position: sticky;
+        top: 0;
+        background-color: hsl(0, 0%, 85%);
+
+        
+      }
+      
+     
+
+
+      .oneArticle{
+        border-style: double;
+        border-width: thick;
+       background-color: white; 
+       border-color: red green blue yellow;
+        border-radius: 30px;
+        width: 92%;
+        overflow: hidden;
+        -webkit-transition: width 2s, height 2s, -webkit-transform 2s; 
+         transition: width 2s, height 2s, transform 2s;
+
+      }
+
+       .oneArticle:hover{
+         opacity: 0.5;
+         filter: alpha(opacity=50); 
+         width: 200px;
+        height: 200px;
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg); 
+        
+
+
+      }
+
+
+     
+      button {
+        background-color: lightblue;
+        cursor: pointer;
+        font-size: 16px;
+        border-radius: 10%;
+        
+      }
+      button:hover {
+        background-color: lightgrey;
+      }
+
+     .footer {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 10px;
+}
+
+
+   @media (min-width: 300px) {
+   	.oneArticle{
+         display: flex;
+        align-content: flex-start;
+        align-items: stretch;
+        flex: 1;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+
+      }
+
+   .article {
+        display: flex;
+        float: left;
+        width: 100%;
+        
+        align-content: flex-start;
+        align-items: stretch;
+        flex: 1;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+      
+        
+
+      }
+
+
+
+    }
+
+    @media only screen  and (min-width : 1224px) {
+     .article {
+        display: flex;
+        float: left;
+        width: 100%;
+        display: -webkit-flex; 
+        -webkit-flex-wrap: wrap; 
+        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: auto auto auto auto ;
+        grid-template-rows: auto auto auto auto;
+        grid-gap: 5px;
+        padding: 4px;
+      
+        border-radius: 15px; 
+
+      }
+      .details{
+        float: left;
+        width: 30%;
+        display: inline-block;
+        border-radius: 30px;
+        overflow:scroll;
+        height:300px;
+        position: -webkit-sticky; 
+        position: sticky;
+        top: 0;
+        background-color: hsl(0, 0%, 85%);
+
+        
+      }
+      
+     
+
+
+      .oneArticle{
+        border-style: double;
+        border-width: thick;
+       background-color: white; 
+       border-color: red green blue yellow;
+        border-radius: 30px;
+        width: 92%;
+        overflow: hidden;
+        -webkit-transition: width 2s, height 2s, -webkit-transform 2s; 
+         transition: width 2s, height 2s, transform 2s;
+
+      }
+      .oneArticle:hover{
+         opacity: 0.5;
+         filter: alpha(opacity=50); 
+         width: 200px;
+        height: 200px;
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg); 
+        
+
+
+      }
+      .page {
+        width: 100%;
+        margin: 0 auto;
+        
+      }
+      .head { 
+        font-family: 'Kalam';
+        font-size: 23px;
+        background-color:red;
+        background-size: 1400px ;
+        border-radius: 15px;
+
+        
+      }
+      
+      .date p {
+        display: inline-block
+      }
+      .articleDetails {
+        display: flex;
+        margin-top: 30px;
+        background-image: url("http://i.ebayimg.com/images/i/142227617731-0-1/s-l1000.jpg");
+       
+
+
+     
+}
+
